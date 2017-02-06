@@ -130,6 +130,6 @@ app.put('/movies/:id', function(req,res){
 	res.redirect('/movies');
 });
 
-app.listen(3000, function(){
+app.listen(3000||process.env.PORT, function(){
 	console.log('listening on port 3000!')
 });
