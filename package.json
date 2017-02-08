@@ -1,6 +1,6 @@
 {
   "name": "movie_haus_2",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "dependencies": {
@@ -12,5 +12,13 @@
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjanders/MovieHut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jjanders/MovieHut/issues"
+  },
+  "homepage": "https://github.com/jjanders/MovieHut#readme"
 }
